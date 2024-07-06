@@ -27,7 +27,7 @@
     <script type="text/javascript">
       const exampleTarget = document.querySelector('#example-target');
       const video = document.querySelector('#vid');
-      const audio = document.querySelector('#audio');
+     
 
       exampleTarget.addEventListener("targetFound", event => {
         console.log("target found");
@@ -39,13 +39,11 @@
         console.log("target lost");
         video.pause();
         video.currentTime = 0;
-        audio.pause();
-        audio.currentTime = 0;
       });
 
       const insta_click = document.querySelector('#ig_click');
       insta_click.addEventListener("click", event => {
-        window.location.href = "https://www.instagram.com/shrey..0806/";
+        window.location.href = "https://www.instagram.com/shrey.__.0806/";
       });
 
       const yt_click = document.querySelector('#yt_click');
